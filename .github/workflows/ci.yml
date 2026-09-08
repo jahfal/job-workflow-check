@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Pytest
         run: |
-          pytest
+          python -m pytest
 
   sast_bandit:
     name: SAST (Bandit)
